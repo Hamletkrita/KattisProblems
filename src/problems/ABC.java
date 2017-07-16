@@ -43,10 +43,10 @@ public class ABC {
 
         char[] charArray = secondline.toCharArray();
         char c1 = charArray[0], c2 = charArray[1], c3 = charArray[2];
-        
+        ///TEST TEST
         if (compare(nr1, nr2, nr3)) {
             a = nr1;
-            b = nr2;
+            b = nr2; 
             c = nr3;
         } else if (compare(nr1, nr3, nr2)) {
             a = nr1;
